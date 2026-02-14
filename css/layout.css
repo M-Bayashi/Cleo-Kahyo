@@ -1,1 +1,142 @@
+@charset "UTF-8";
 
+body{margin: 0;padding: 0;
+    background: #E0E0E0;
+    background-image: url("../image/backimg.PNG");
+    background-size: 79%;
+    background-attachment: fixed;
+    font-family: "Kiwi Maru","YuGothic","Yu Gothic","Meiryo","sans-serif";}
+
+.all{width:80%; max-width: 1100px;margin: 0 auto 0 auto;
+    background-color: #f9f9ffa9;}
+
+header{margin: 0;padding: 10px;
+    width: 100%;height: 85px;
+    background-color: #9F9FA5;
+    box-sizing: border-box;}
+header ul{display: flex;
+    justify-content: space-between;}
+header li {
+       list-style-type: none;
+        font-size: 25px;
+        flex-grow: 1;
+        text-align: center;}
+li + li {
+    border-left: 1px solid azure;}
+header a{text-decoration: none;color: azure;}
+header a:hover{color:#515155;}
+
+img{width:100%;}
+
+.clear{clear: both;}
+
+footer{margin: 200px 0 0 0;padding: 20px 0 40px 60px;background-color: #9F9FA5;
+    width: 100%;height: 150px;box-sizing: border-box;}
+
+/*共通*/
+
+.TopRight{margin:100px auto 160px auto; padding:0 10% 0 0; float: right; width:40%;}
+.TopLeft{margin: 150px auto 0 auto; padding:0 0 0 10%; width: 40%; float: left;}
+
+.news{margin:0 auto 80px auto; width:75%;}
+
+.menu{width: 100%;
+    padding: 0 10%;
+    margin:0 auto 0 auto;
+    display: flex;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+.menu a{
+    color: #515155;
+    background-color: #ffffff;
+    width: 30%;
+    margin: 0 20px 0 15px;
+    padding: 1.3% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 5px;
+    border: solid #515155 2px;
+}
+.menu a:hover{color: #ffffff;background-color: #515155;}
+
+.utautoha{margin:0 auto 80px auto; width:75%;}
+
+.smalltitle{ border-top: solid 3px;/*上線*/
+             border-bottom: solid 3px ;/*下線*/
+             font-size: 20px;}
+
+/*↑top*/
+
+.top img{margin:160px auto 160px auto; width:50%; display:block;}
+.CaraRight{margin:110px auto 160px auto; padding:0 5% 0 0; float: right; width:50%;}
+.CaraLeft{margin:50px auto 160px auto; padding:0 0 0 5%; float: right; width:40%;}
+.colorimg{display:flex;flex-wrap:wrap;}
+.colorimg img{width:45%; margin:2%;}
+.design{width:70%;margin:40px auto 0 auto;}
+.design img{width:100%; margin: 0 auto; display: block;}
+
+/*キャラクター*/
+
+.readmeALL{width:90%; margin: 0 auto;}
+h3{margin-top: 50px;}
+.readme{font-size: 0.8em;}
+h5{height: 5px;}
+/*readme*/
+
+.KihonVoice{margin:80px auto 0 auto; width:75%;}
+.VoiceRight img{margin:10px auto 0 auto; padding:0 3% 0 0; float: right; width:37%;}
+.VoiceLeft{margin: 10px auto 0 auto; padding:0 0 0 3%; width: 55%; float: left;}
+.caption{font-size:0.7em;}
+audio{text-align:center;}
+.DLC{width: 100%;
+    padding: 0 10%;
+    margin:0 auto 0 auto;
+    display: flex;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+.DLC a{
+    color: #ffffff;
+    background-color: #515155;
+    width: 70%;
+    margin: 0 20px 0 15px;
+    padding: 1.3% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 5px;
+    border: solid #515155 2px;
+}
+.DLC a:hover{color: #515155;background-color: #ffffff;}
+.center{text-align:center;}
+
+.GalleryRight img{margin:30px auto 0 auto; padding:0 3% 0 0; float: right; width:100%;}
+.GalleryRight{margin:10px auto 0 auto; padding:0 3% 0 0; float: right; width:40%;}
+.GalleryLeft{margin: 10px auto 0 auto; padding:0 0 0 3%; width: 50%; float: left;}
+
+
+.DLC_illu{width: 100%;
+    padding: 0 10%;
+    margin:0 auto 0 auto;
+    display: flex;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+.DLC_illu a{
+    color: #ffffff;
+    background-color: #515155;
+    width: 70%;
+    margin: 0 auto 0 auto;
+    padding: 1.3% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 5px;
+    border: solid #515155 2px;
+}
+.DLC_illu a:hover{color: #515155;background-color: #ffffff;}
